@@ -93,6 +93,9 @@ Plug 'jiangmiao/auto-pairs'           " Auto-close brackets
 Plug 'tpope/vim-commentary'           " Easy comment/uncomment
 Plug 'Yggdroot/indentLine'            " Show indent guides
 
+" Using black for python
+Plug 'psf/black', {'branch':'stable'}
+
 call plug#end()
 
 " Set the color scheme to solarized
