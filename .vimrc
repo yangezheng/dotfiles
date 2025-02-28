@@ -15,9 +15,6 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
-
-
-
 " Enable auto-indentation
 set smartindent
 set autoindent
@@ -26,15 +23,6 @@ set smarttab
 " Use <Enter> to confirm completion instead of inserting a new line
 "inoremap <silent><expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 inoremap <silent><expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
-
-
-
-" Use <Enter> to confirm completion instead of inserting a new line
-" Use <Enter> to confirm completion instead of inserting a new line
-" Use <Enter> to confirm completion instead of inserting a new line
-" Use <Enter> to confirm completion instead of inserting a new line
-"
-" Use <Enter> to confirm completion instead of inserting a new line
 
 " Show matching parentheses and brackets
 set showmatch
