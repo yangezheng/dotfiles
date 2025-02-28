@@ -142,3 +142,4 @@ export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 
 # Created by `pipx` on 2025-02-24 23:40:10
 export PATH="$PATH:/Users/yzheng/.local/bin"
+export PATH="/opt/homebrew/bin:$PATH"
