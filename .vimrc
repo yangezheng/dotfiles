@@ -109,25 +109,3 @@ let g:NERDTreeShowHidden = 1
 " Enable auto-completion menu
 set completeopt=menuone,noinsert,noselect
 
-" Set background to dark for Solarized (recommended)
-"set background=dark
-
-" Enable better diff highlighting in vimdiff
-"augroup vimdiff
-"  autocmd!
-"  autocmd FileType diff setlocal diffopt+=iwhite  " Ignore whitespace changes
-"  autocmd FileType diff setlocal foldmethod=manual  " Disable folding for diff mode
-"  autocmd FileType diff setlocal cursorline       " Highlight current line
-"  autocmd FileType diff setlocal background=dark " Ensure dark backgrou""nd for diff mode (optional)
-"augroup END
-
-
-" Set colors for diffs
-"highlight DiffAdd    ctermfg=green guifg=#00ff00
-"highlight DiffChange ctermfg=yellow guifg=#ffff00
-"highlight DiffDelete ctermfg=red guifg=#ff0000
-"highlight DiffText   ctermfg=blue guifg=#0000ff
-
-" Customize the background for diffs
-"autocmd FileType diff setlocal background=dark
-
